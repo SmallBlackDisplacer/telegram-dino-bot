@@ -89,7 +89,7 @@ def send_result(user_id):
     answers = user_data[user_id]["answers"]
 
     # простая логика результата
-    if name == 'Денис' or "Израиль" or "Христианских младенцев" in answers:
+    if name == 'Денис' or "Израиль" in answers or "Христианских младенцев" in answers:
         result = "Ты жидорептилоид ✡️ 🦖 ✡️"
         result_img = "jdino.jpg"
     else:
